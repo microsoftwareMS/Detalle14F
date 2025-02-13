@@ -130,6 +130,7 @@ body {
 
     /* Animación de escala aleatoria */
     animation: scaleHeart 2s ease-in-out infinite;
+    overflow: hidden;
 }
 
 /* Animación de crecimiento y reducción */
