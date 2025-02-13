@@ -153,6 +153,7 @@ body {
     z-index: 50;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .hidden {
