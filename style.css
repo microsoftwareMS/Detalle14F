@@ -372,3 +372,9 @@ body {
     }
 
 }
+
+body audio {
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+}
