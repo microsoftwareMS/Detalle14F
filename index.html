@@ -15,7 +15,7 @@
 
 <body>
     
-    <audio autoplay controls>
+    <audio autoplay controls id="myAudio">
         <source src="ParaSiempre.mp3" type="audio/mp3">
     </audio>
     <div class="cronometro" id="cronometro">
@@ -25,7 +25,7 @@
     <div class="welcome">
         <h1 id="h1wel">¡Hola amor...!</h1>
         <span id="spanwel">Si estas lista para esto dale en empezar</span>
-        <button id="start-btn">Empezar</button>
+        <button id="start-btn" onclick="document.getElementById('myAudio').play()">Empezar</button>
     </div>
     <div id="message-container" class="hidden">
         <div class="boddy-letter">
